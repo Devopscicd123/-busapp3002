@@ -1,5 +1,4 @@
-FROM learnitguide/busapp:latest
-
+FROM learnitguide/busapp:2.1
 COPY busapp-webapp/ /usr/src/busapp-webapp/
 
 WORKDIR /usr/src/busapp-webapp
