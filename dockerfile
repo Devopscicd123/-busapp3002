@@ -1,4 +1,4 @@
-FROM suba02/busapp:latest
+FROM learnitguide/busapp:latest
 
 COPY busapp-webapp/ /usr/src/busapp-webapp/
 
